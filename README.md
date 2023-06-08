@@ -25,14 +25,7 @@ To reproduce the results and run the project, please follow these steps:
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the Jupyter notebooks in the `notebooks/` folder to perform exploratory data analysis, train the prediction and classification models, and evaluate their performance.
 
-## Sample Image
+## Error Figure
 
-![Car Price Prediction](visualization/sample_image.png)
+![Car Price Prediction](https://raw.githubusercontent.com/cristhianc001/predicting-prices-and-hospitalization-with-supervised-learning/main/visualizations/hist-errors-linear-cars.png)
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-Feel free to explore the different folders and files to gain a deeper understanding of the project. If you have any questions or suggestions, please open an issue or contact us.
-
-Happy exploring and predicting car prices!
