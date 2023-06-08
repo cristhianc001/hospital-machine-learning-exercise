@@ -6,11 +6,12 @@ This is a machine learning project aimed at predicting the price of cars based o
 
 The project is organized as follows:
 
-- `data/`: This folder contains the dataset used for training and testing the models.
-- `notebooks/`: This folder contains Jupyter notebooks used for exploratory data analysis, model training, and evaluation.
-- `models/`: This folder contains saved trained models.
-- `scripts/`: This folder contains utility scripts used for data preprocessing, feature engineering, and model evaluation.
-- `visualization/`: This folder contains visualizations generated during the analysis.
+The repository is structured as follows:
+
+- [`raw_data/`](raw_data/): Contains the pre-processed datasets in CSV format.
+- [`processed_data/`](processed_data/): Contains the transformed and manipulated datasets in CSV format.
+- [`notebooks/`](notebooks/): Includes Python notebooks for data cleaning, EDA, visualization and machine learning tasks. 
+- [`visualizations/`](visualizations/): Includes Python figures for data visualization and exploration.    
 
 ## Dataset
 
@@ -25,7 +26,7 @@ To reproduce the results and run the project, please follow these steps:
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the Jupyter notebooks in the `notebooks/` folder to perform exploratory data analysis, train the prediction and classification models, and evaluate their performance.
 
-## Error Figure
+## Error Histogram from Linear Regression Model for Cars
 
 ![Car Price Prediction](https://raw.githubusercontent.com/cristhianc001/predicting-prices-and-hospitalization-with-supervised-learning/main/visualizations/hist-errors-linear-cars.png)
 
