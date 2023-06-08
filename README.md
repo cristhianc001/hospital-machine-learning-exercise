@@ -11,7 +11,8 @@ The repository is structured as follows:
 - [`raw_data/`](raw_data/): Contains the pre-processed datasets in CSV format.
 - [`processed_data/`](processed_data/): Contains the transformed and manipulated datasets in CSV format.
 - [`notebooks/`](notebooks/): Includes Python notebooks for data cleaning, EDA, visualization and machine learning tasks. 
-- [`visualizations/`](visualizations/): Includes Python figures for data visualization and exploration.    
+- [`visualizations/`](visualizations/): Includes Python figures for data visualization and exploration.
+- [`reports/`](visualizations/): Pandas-Profile reports (EDA).        
 
 ## Dataset
 
